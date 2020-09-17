@@ -2,7 +2,7 @@
 
 # Ansible Role: cloc
 
-Role to install (_by default_) [cloc](https://github.com/AlDanial/cloc) or uninstall (_if passed as var_) on Debian based and EL based systems. As per the official statement on the repostiory's github page, it allows for "_cloc counts blank lines, comment lines, and physical lines of source code in many programming languages._"
+Role to install (_by default_) [cloc](https://github.com/AlDanial/cloc) or uninstall (_if passed as var_) on Debian based and EL based systems. As per the official statement on the repository's GitHub page, it allows for "_cloc counts blank lines, comment lines, and physical lines of source code in many programming languages._"
 
 ## Requirements
 
