@@ -1,0 +1,8 @@
+---
+# tasks file for sslscan - EL Family
+
+- name: EL Family | Installing {{ sslscan_app }}
+  yum:
+    name: "{{ sslscan_app }}"
+    state: "{{ sslscan_desired_state }}"
+    update_cache: yes
