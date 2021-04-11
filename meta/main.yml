@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: cloc
-  author: Ali Muhammad
+  author: darkwizard242
   description: Installation/Uninstallation of `cloc`. Used for Counting Lines of Code.
   company: none
   license: MIT
