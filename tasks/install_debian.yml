@@ -2,7 +2,7 @@
 # tasks file for cloc - Debian/Ubuntu Family
 
 - name: Debian/Ubuntu Family | Installing {{ cloc_app }}
-  apt:
+  ansible.builtin.apt:
     name: "{{ cloc_app }}"
     state: "{{ cloc_desired_state }}"
     force_apt_get: yes
