@@ -2,7 +2,7 @@
 # tasks file for cloc - EL Family
 
 - name: EL Family | Installing {{ cloc_app }}
-  yum:
+  ansible.builtin.yum:
     name: "{{ cloc_app }}"
     state: "{{ cloc_desired_state }}"
     update_cache: yes
