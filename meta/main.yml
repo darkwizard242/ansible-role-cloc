@@ -13,14 +13,10 @@ galaxy_info:
         - noble
         - jammy
         - focal
-        - bionic
     - name: Debian
       versions:
         - bullseye
         - buster
-    - name: EL
-      versions:
-        - 7
 
   galaxy_tags:
     - cloc
